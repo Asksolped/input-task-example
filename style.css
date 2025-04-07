@@ -1,0 +1,57 @@
+footer {
+  background-color: rgb(142, 16, 110);
+  display: flex;
+  gap: 6rem;
+  height: 60vh;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  gap: 2rem;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+input[type="text"] {
+  height: 50vh;
+  width: 60vh;
+  text-align: center;
+}
+
+input[type="email"],
+input[type="number"] {
+  text-align: center;
+  margin-left: 5rem;
+}
+
+input {
+  height: 5rem;
+  width: 35rem;
+  border-radius: 50px;
+  border: 0.5rem solid #550c46;
+  font-size: 4rem;
+}
+
+.message-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="submit"] {
+  width: 10rem;
+  font-size: 2rem;
+  margin-top: -6rem;
+}
